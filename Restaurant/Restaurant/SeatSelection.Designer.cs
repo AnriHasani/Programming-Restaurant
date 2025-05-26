@@ -29,59 +29,50 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SeatSelection));
-            label1 = new Label();
             btn_Details = new Button();
             panelSeats = new Panel();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            pictureBox6 = new PictureBox();
-            pictureBox7 = new PictureBox();
-            pictureBox8 = new PictureBox();
-            pictureBox9 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            pictureBox11 = new PictureBox();
-            pictureBox12 = new PictureBox();
-            pictureBox13 = new PictureBox();
-            pictureBox15 = new PictureBox();
-            pictureBox16 = new PictureBox();
-            pictureBox17 = new PictureBox();
             pictureBox14 = new PictureBox();
+            table_15 = new PictureBox();
+            table_10 = new PictureBox();
+            table_16 = new PictureBox();
+            table_14 = new PictureBox();
+            table_9 = new PictureBox();
+            table_11 = new PictureBox();
+            table_12 = new PictureBox();
+            table_5 = new PictureBox();
+            table_8 = new PictureBox();
+            table_4 = new PictureBox();
+            table_7 = new PictureBox();
+            table_6 = new PictureBox();
+            table_13 = new PictureBox();
+            table_3 = new PictureBox();
+            table_2 = new PictureBox();
+            table_1 = new PictureBox();
+            button1 = new Button();
+            btn_LogOut = new Button();
             panelSeats.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_16).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)table_1).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F);
-            label1.Location = new Point(276, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(227, 41);
-            label1.TabIndex = 0;
-            label1.Text = "Select your seat";
             // 
             // btn_Details
             // 
-            btn_Details.Location = new Point(342, 370);
+            btn_Details.Location = new Point(360, 389);
             btn_Details.Name = "btn_Details";
             btn_Details.Size = new Size(94, 29);
             btn_Details.TabIndex = 1;
@@ -93,186 +84,26 @@
             panelSeats.AutoScroll = true;
             panelSeats.BackColor = Color.PeachPuff;
             panelSeats.Controls.Add(pictureBox14);
-            panelSeats.Controls.Add(pictureBox17);
-            panelSeats.Controls.Add(pictureBox16);
-            panelSeats.Controls.Add(pictureBox15);
-            panelSeats.Controls.Add(pictureBox13);
-            panelSeats.Controls.Add(pictureBox12);
-            panelSeats.Controls.Add(pictureBox11);
-            panelSeats.Controls.Add(pictureBox10);
-            panelSeats.Controls.Add(pictureBox9);
-            panelSeats.Controls.Add(pictureBox8);
-            panelSeats.Controls.Add(pictureBox7);
-            panelSeats.Controls.Add(pictureBox6);
-            panelSeats.Controls.Add(pictureBox5);
-            panelSeats.Controls.Add(pictureBox4);
-            panelSeats.Controls.Add(pictureBox3);
-            panelSeats.Controls.Add(pictureBox2);
-            panelSeats.Controls.Add(pictureBox1);
-            panelSeats.Location = new Point(43, 79);
+            panelSeats.Controls.Add(table_15);
+            panelSeats.Controls.Add(table_10);
+            panelSeats.Controls.Add(table_16);
+            panelSeats.Controls.Add(table_14);
+            panelSeats.Controls.Add(table_9);
+            panelSeats.Controls.Add(table_11);
+            panelSeats.Controls.Add(table_12);
+            panelSeats.Controls.Add(table_5);
+            panelSeats.Controls.Add(table_8);
+            panelSeats.Controls.Add(table_4);
+            panelSeats.Controls.Add(table_7);
+            panelSeats.Controls.Add(table_6);
+            panelSeats.Controls.Add(table_13);
+            panelSeats.Controls.Add(table_3);
+            panelSeats.Controls.Add(table_2);
+            panelSeats.Controls.Add(table_1);
+            panelSeats.Location = new Point(38, 66);
             panelSeats.Name = "panelSeats";
-            panelSeats.Size = new Size(688, 285);
+            panelSeats.Size = new Size(693, 298);
             panelSeats.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(45, 45);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(62, 48);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Location = new Point(140, 45);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(62, 48);
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Location = new Point(253, 45);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(62, 48);
-            pictureBox3.TabIndex = 2;
-            pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox4.Location = new Point(497, 118);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(62, 48);
-            pictureBox4.TabIndex = 3;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox5.Location = new Point(253, 118);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(62, 48);
-            pictureBox5.TabIndex = 4;
-            pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
-            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox6.Location = new Point(45, 201);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(62, 48);
-            pictureBox6.TabIndex = 5;
-            pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            pictureBox7.BackgroundImage = (Image)resources.GetObject("pictureBox7.BackgroundImage");
-            pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox7.Location = new Point(45, 118);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(62, 48);
-            pictureBox7.TabIndex = 6;
-            pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.BackgroundImage = (Image)resources.GetObject("pictureBox8.BackgroundImage");
-            pictureBox8.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox8.Location = new Point(140, 201);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(62, 48);
-            pictureBox8.TabIndex = 7;
-            pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            pictureBox9.BackgroundImage = (Image)resources.GetObject("pictureBox9.BackgroundImage");
-            pictureBox9.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox9.Location = new Point(140, 118);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(62, 48);
-            pictureBox9.TabIndex = 8;
-            pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            pictureBox10.BackgroundImage = (Image)resources.GetObject("pictureBox10.BackgroundImage");
-            pictureBox10.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox10.Location = new Point(609, 45);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(62, 48);
-            pictureBox10.TabIndex = 9;
-            pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            pictureBox11.BackgroundImage = (Image)resources.GetObject("pictureBox11.BackgroundImage");
-            pictureBox11.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox11.Location = new Point(497, 45);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(62, 48);
-            pictureBox11.TabIndex = 10;
-            pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.BackgroundImage = (Image)resources.GetObject("pictureBox12.BackgroundImage");
-            pictureBox12.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox12.Location = new Point(253, 201);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(62, 48);
-            pictureBox12.TabIndex = 11;
-            pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            pictureBox13.BackgroundImage = (Image)resources.GetObject("pictureBox13.BackgroundImage");
-            pictureBox13.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox13.Location = new Point(609, 118);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(62, 48);
-            pictureBox13.TabIndex = 12;
-            pictureBox13.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            pictureBox15.BackgroundImage = (Image)resources.GetObject("pictureBox15.BackgroundImage");
-            pictureBox15.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox15.Location = new Point(609, 201);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(62, 48);
-            pictureBox15.TabIndex = 14;
-            pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            pictureBox16.BackgroundImage = (Image)resources.GetObject("pictureBox16.BackgroundImage");
-            pictureBox16.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox16.Location = new Point(373, 201);
-            pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(62, 48);
-            pictureBox16.TabIndex = 15;
-            pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            pictureBox17.BackgroundImage = (Image)resources.GetObject("pictureBox17.BackgroundImage");
-            pictureBox17.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox17.Location = new Point(497, 201);
-            pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(62, 48);
-            pictureBox17.TabIndex = 16;
-            pictureBox17.TabStop = false;
             // 
             // pictureBox14
             // 
@@ -284,59 +115,247 @@
             pictureBox14.TabIndex = 17;
             pictureBox14.TabStop = false;
             // 
+            // table_15
+            // 
+            table_15.BackgroundImage = (Image)resources.GetObject("table_15.BackgroundImage");
+            table_15.BackgroundImageLayout = ImageLayout.Stretch;
+            table_15.Location = new Point(506, 201);
+            table_15.Name = "table_15";
+            table_15.Size = new Size(60, 60);
+            table_15.TabIndex = 16;
+            table_15.TabStop = false;
+            // 
+            // table_10
+            // 
+            table_10.BackgroundImage = (Image)resources.GetObject("table_10.BackgroundImage");
+            table_10.BackgroundImageLayout = ImageLayout.Stretch;
+            table_10.Location = new Point(375, 201);
+            table_10.Name = "table_10";
+            table_10.Size = new Size(60, 60);
+            table_10.TabIndex = 15;
+            table_10.TabStop = false;
+            // 
+            // table_16
+            // 
+            table_16.BackgroundImage = (Image)resources.GetObject("table_16.BackgroundImage");
+            table_16.BackgroundImageLayout = ImageLayout.Stretch;
+            table_16.Location = new Point(609, 201);
+            table_16.Name = "table_16";
+            table_16.Size = new Size(60, 60);
+            table_16.TabIndex = 14;
+            table_16.TabStop = false;
+            // 
+            // table_14
+            // 
+            table_14.BackgroundImage = (Image)resources.GetObject("table_14.BackgroundImage");
+            table_14.BackgroundImageLayout = ImageLayout.Stretch;
+            table_14.Location = new Point(609, 118);
+            table_14.Name = "table_14";
+            table_14.Size = new Size(60, 60);
+            table_14.TabIndex = 12;
+            table_14.TabStop = false;
+            // 
+            // table_9
+            // 
+            table_9.BackgroundImage = (Image)resources.GetObject("table_9.BackgroundImage");
+            table_9.BackgroundImageLayout = ImageLayout.Stretch;
+            table_9.Location = new Point(253, 201);
+            table_9.Name = "table_9";
+            table_9.Size = new Size(60, 60);
+            table_9.TabIndex = 11;
+            table_9.TabStop = false;
+            // 
+            // table_11
+            // 
+            table_11.BackgroundImage = (Image)resources.GetObject("table_11.BackgroundImage");
+            table_11.BackgroundImageLayout = ImageLayout.Stretch;
+            table_11.Location = new Point(506, 36);
+            table_11.Name = "table_11";
+            table_11.Size = new Size(60, 60);
+            table_11.TabIndex = 10;
+            table_11.TabStop = false;
+            table_11.Click += this.table_11_Click;
+            // 
+            // table_12
+            // 
+            table_12.BackgroundImage = (Image)resources.GetObject("table_12.BackgroundImage");
+            table_12.BackgroundImageLayout = ImageLayout.Stretch;
+            table_12.Location = new Point(609, 36);
+            table_12.Name = "table_12";
+            table_12.Size = new Size(60, 60);
+            table_12.TabIndex = 9;
+            table_12.TabStop = false;
+            // 
+            // table_5
+            // 
+            table_5.BackgroundImage = (Image)resources.GetObject("table_5.BackgroundImage");
+            table_5.BackgroundImageLayout = ImageLayout.Stretch;
+            table_5.Location = new Point(150, 118);
+            table_5.Name = "table_5";
+            table_5.Size = new Size(60, 60);
+            table_5.TabIndex = 8;
+            table_5.TabStop = false;
+            table_5.Click += this.pictureBox9_Click;
+            // 
+            // table_8
+            // 
+            table_8.BackgroundImage = (Image)resources.GetObject("table_8.BackgroundImage");
+            table_8.BackgroundImageLayout = ImageLayout.Stretch;
+            table_8.Location = new Point(150, 201);
+            table_8.Name = "table_8";
+            table_8.Size = new Size(60, 60);
+            table_8.TabIndex = 7;
+            table_8.TabStop = false;
+            table_8.Click += this.pictureBox8_Click;
+            // 
+            // table_4
+            // 
+            table_4.BackgroundImage = (Image)resources.GetObject("table_4.BackgroundImage");
+            table_4.BackgroundImageLayout = ImageLayout.Stretch;
+            table_4.Location = new Point(45, 118);
+            table_4.Name = "table_4";
+            table_4.Size = new Size(60, 60);
+            table_4.TabIndex = 6;
+            table_4.TabStop = false;
+            // 
+            // table_7
+            // 
+            table_7.BackgroundImage = (Image)resources.GetObject("table_7.BackgroundImage");
+            table_7.BackgroundImageLayout = ImageLayout.Stretch;
+            table_7.Location = new Point(45, 201);
+            table_7.Name = "table_7";
+            table_7.Size = new Size(60, 60);
+            table_7.TabIndex = 5;
+            table_7.TabStop = false;
+            // 
+            // table_6
+            // 
+            table_6.BackgroundImage = (Image)resources.GetObject("table_6.BackgroundImage");
+            table_6.BackgroundImageLayout = ImageLayout.Stretch;
+            table_6.Location = new Point(253, 118);
+            table_6.Name = "table_6";
+            table_6.Size = new Size(60, 60);
+            table_6.TabIndex = 4;
+            table_6.TabStop = false;
+            // 
+            // table_13
+            // 
+            table_13.BackgroundImage = (Image)resources.GetObject("table_13.BackgroundImage");
+            table_13.BackgroundImageLayout = ImageLayout.Stretch;
+            table_13.Location = new Point(506, 118);
+            table_13.Name = "table_13";
+            table_13.Size = new Size(60, 60);
+            table_13.TabIndex = 3;
+            table_13.TabStop = false;
+            // 
+            // table_3
+            // 
+            table_3.BackgroundImage = (Image)resources.GetObject("table_3.BackgroundImage");
+            table_3.BackgroundImageLayout = ImageLayout.Stretch;
+            table_3.Location = new Point(253, 36);
+            table_3.Name = "table_3";
+            table_3.Size = new Size(60, 60);
+            table_3.TabIndex = 2;
+            table_3.TabStop = false;
+            // 
+            // table_2
+            // 
+            table_2.BackgroundImage = (Image)resources.GetObject("table_2.BackgroundImage");
+            table_2.BackgroundImageLayout = ImageLayout.Stretch;
+            table_2.Location = new Point(150, 36);
+            table_2.Name = "table_2";
+            table_2.Size = new Size(60, 60);
+            table_2.TabIndex = 1;
+            table_2.TabStop = false;
+            table_2.Click += this.pictureBox2_Click;
+            // 
+            // table_1
+            // 
+            table_1.BackgroundImage = (Image)resources.GetObject("table_1.BackgroundImage");
+            table_1.BackgroundImageLayout = ImageLayout.Stretch;
+            table_1.Location = new Point(45, 36);
+            table_1.Name = "table_1";
+            table_1.Size = new Size(60, 60);
+            table_1.TabIndex = 0;
+            table_1.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.DarkRed;
+            button1.Font = new Font("Segoe UI", 14F);
+            button1.Location = new Point(296, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(245, 48);
+            button1.TabIndex = 18;
+            button1.Text = "Create a reservation";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // btn_LogOut
+            // 
+            btn_LogOut.BackColor = Color.IndianRed;
+            btn_LogOut.Location = new Point(12, 12);
+            btn_LogOut.Name = "btn_LogOut";
+            btn_LogOut.Size = new Size(94, 29);
+            btn_LogOut.TabIndex = 18;
+            btn_LogOut.Text = "Log Out";
+            btn_LogOut.UseVisualStyleBackColor = false;
+            // 
             // SeatSelection
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.WhiteSmoke;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_LogOut);
+            Controls.Add(button1);
             Controls.Add(panelSeats);
             Controls.Add(btn_Details);
-            Controls.Add(label1);
             Name = "SeatSelection";
             Text = "Form1";
             panelSeats.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_16).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)table_1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private Button btn_Details;
         private Panel panelSeats;
         private PictureBox pictureBox14;
-        private PictureBox pictureBox17;
-        private PictureBox pictureBox16;
-        private PictureBox pictureBox15;
-        private PictureBox pictureBox13;
-        private PictureBox pictureBox12;
-        private PictureBox pictureBox11;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox6;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox1;
+        private PictureBox table_15;
+        private PictureBox table_10;
+        private PictureBox table_16;
+        private PictureBox table_14;
+        private PictureBox table_9;
+        private PictureBox table_11;
+        private PictureBox table_12;
+        private PictureBox table_5;
+        private PictureBox table_8;
+        private PictureBox table_4;
+        private PictureBox table_7;
+        private PictureBox table_6;
+        private PictureBox table_13;
+        private PictureBox table_3;
+        private PictureBox table_2;
+        private PictureBox table_1;
+        private Button button1;
+        private Button btn_LogOut;
     }
 }

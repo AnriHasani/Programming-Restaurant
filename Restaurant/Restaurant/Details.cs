@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
-    public partial class Form1 : Form
+    public partial class Details : Form
     {
-        public Form1()
+        public Details()
         {
             InitializeComponent();
+        }
+
+        private void Details_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_table_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Save_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
