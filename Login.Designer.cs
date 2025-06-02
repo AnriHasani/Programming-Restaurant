@@ -32,7 +32,7 @@
             label2 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            button1 = new Button();
+            btn_Login = new Button();
             SuspendLayout();
             // 
             // label2
@@ -67,15 +67,15 @@
             textBox2.Size = new Size(156, 27);
             textBox2.TabIndex = 4;
             // 
-            // button1
+            // btn_Login
             // 
-            button1.Location = new Point(352, 256);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 5;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btn_Login.Location = new Point(352, 256);
+            btn_Login.Name = "btn_Login";
+            btn_Login.Size = new Size(94, 29);
+            btn_Login.TabIndex = 5;
+            btn_Login.Text = "Login";
+            btn_Login.UseVisualStyleBackColor = true;
+            btn_Login.Click += btn_Login_Click;
             // 
             // Login
             // 
@@ -85,12 +85,12 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(782, 453);
-            Controls.Add(button1);
+            Controls.Add(btn_Login);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Name = "Login";
-            Text = "Form1";
+            Text = "Login";
             Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -101,5 +101,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Button button1;
+        private Button btn_Login;
     }
 }

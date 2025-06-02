@@ -31,15 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Details));
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            details_name = new TextBox();
+            details_surname = new TextBox();
             btn_Save = new Button();
             label_table = new Label();
             label3 = new Label();
             label4 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox1 = new ComboBox();
-            label_table_number = new Label();
+            details_time = new DateTimePicker();
+            details_number = new ComboBox();
+            details_label_table_number = new Label();
             label5 = new Label();
             button1 = new Button();
             SuspendLayout();
@@ -68,19 +68,21 @@
             label2.TabIndex = 1;
             label2.Text = "Surname:";
             // 
-            // textBox1
+            // details_name
             // 
-            textBox1.Location = new Point(205, 83);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(250, 27);
-            textBox1.TabIndex = 2;
+            details_name.Location = new Point(205, 83);
+            details_name.Name = "details_name";
+            details_name.Size = new Size(250, 27);
+            details_name.TabIndex = 2;
+            details_name.TextChanged += textBox1_TextChanged;
             // 
-            // textBox2
+            // details_surname
             // 
-            textBox2.Location = new Point(205, 127);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(250, 27);
-            textBox2.TabIndex = 3;
+            details_surname.Location = new Point(205, 127);
+            details_surname.Name = "details_surname";
+            details_surname.Size = new Size(250, 27);
+            details_surname.TabIndex = 3;
+            details_surname.TextChanged += details_surname_TextChanged;
             // 
             // btn_Save
             // 
@@ -131,29 +133,31 @@
             label4.TabIndex = 8;
             label4.Text = "Number of people:";
             // 
-            // dateTimePicker1
+            // details_time
             // 
-            dateTimePicker1.Location = new Point(205, 167);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 10;
+            details_time.Location = new Point(205, 167);
+            details_time.Name = "details_time";
+            details_time.Size = new Size(250, 27);
+            details_time.TabIndex = 10;
+            details_time.ValueChanged += details_time_ValueChanged;
             // 
-            // comboBox1
+            // details_number
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "1", "2", "3", "4" });
-            comboBox1.Location = new Point(205, 215);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(55, 28);
-            comboBox1.TabIndex = 11;
+            details_number.FormattingEnabled = true;
+            details_number.Items.AddRange(new object[] { "1", "2", "3", "4" });
+            details_number.Location = new Point(205, 215);
+            details_number.Name = "details_number";
+            details_number.Size = new Size(55, 28);
+            details_number.TabIndex = 11;
+            details_number.SelectedIndexChanged += details_number_SelectedIndexChanged;
             // 
-            // label_table_number
+            // details_label_table_number
             // 
-            label_table_number.AutoSize = true;
-            label_table_number.Location = new Point(385, 323);
-            label_table_number.Name = "label_table_number";
-            label_table_number.Size = new Size(0, 20);
-            label_table_number.TabIndex = 16;
+            details_label_table_number.AutoSize = true;
+            details_label_table_number.Location = new Point(385, 323);
+            details_label_table_number.Name = "details_label_table_number";
+            details_label_table_number.Size = new Size(0, 20);
+            details_label_table_number.TabIndex = 16;
             // 
             // label5
             // 
@@ -166,6 +170,7 @@
             label5.Size = new Size(133, 50);
             label5.TabIndex = 17;
             label5.Text = "Details";
+            label5.Click += label5_Click;
             // 
             // button1
             // 
@@ -175,6 +180,7 @@
             button1.TabIndex = 18;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Details
             // 
@@ -186,15 +192,15 @@
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(label5);
-            Controls.Add(label_table_number);
-            Controls.Add(comboBox1);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(details_label_table_number);
+            Controls.Add(details_number);
+            Controls.Add(details_time);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label_table);
             Controls.Add(btn_Save);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(details_surname);
+            Controls.Add(details_name);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Details";
@@ -208,15 +214,15 @@
 
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox details_name;
+        private TextBox details_surname;
         private Button btn_Save;
         private Label label_table;
         private Label label3;
         private Label label4;
-        private DateTimePicker dateTimePicker1;
-        private ComboBox comboBox1;
-        private Label label_table_number;
+        private DateTimePicker details_time;
+        private ComboBox details_number;
+        private Label details_label_table_number;
         private Label label5;
         private Button button1;
     }
